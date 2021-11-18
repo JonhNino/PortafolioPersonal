@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #8db44e !important;
+}
+#nombre{
+    margin: auto;
+    color: rgb(154, 158, 93);
+    font-size: 4rem;
+    font-weight: 700px;
+}
+
+.bg-black{
+    color: #FEFEFE;
+    background: #000;
+}
+
+.font-italic{
+    color: #FEFEFE;
+    font-family:cursive;
+}
+
+#main-header .item{
+    width: 30%;
+}
+
+@media(min-width: 1199px){
+    .item{
+        padding: 4.6rem !important; 
+    }
+}
+
+@media(max-width: 680px){
+    #nombre{
+        font-size: 1.5rem;
+    }
+}
